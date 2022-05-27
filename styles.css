@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+Body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #F9F9F9;
+    color: #0e0000;
+}
+/* Title & Heading */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Jost';
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 3.125rem;
+}
+h2 {
+    font-weight: 600;
+    font-size: 2.75rem;
+}
+h3 {
+    font-weight: 600;
+    font-size: 2.375rem;
+}
+h4 {
+    font-weight: 600;
+    font-size: 2rem;
+}
+h5 {
+    font-weight: 600;
+    font-size: 1.625rem;
+}
+h6 {
+    font-weight: 600;
+    font-size: 1.375rem;
+}
+hr {
+    width: 45%;
+}
+p, a, .btn {
+    font-family:'Public Sans';
+}
+p .btn{
+    font-style: 1rem;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+.color-hex {
+    text-transform: uppercase;
+}
+.description-background-color p {
+    margin: 10px 0;
+}
+span {
+    display: inline-flex;
+    justify-content: center;
+    width: 50px;
+    border: 1px solid black;
+}
+
+.container {
+    border: 2px solid lightgrey;
+    padding: 10px;
+    margin: 10px auto;
+}
+/* Section Background-color */
+.container-color {
+    width: 100%;
+}
+.color-block {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 24%;
+    min-height: 100px;
+    margin: 10px 0 10px 3px;
+    box-shadow: 0 2px 14px rgb(126 87 88 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+}
+.black {
+    background-color: #0e0000;
+    color: #fff;
+}
+.torch-red {
+    background-color: #fd1015;
+    color: #fff;
+}
+.old-lace {
+    background-color: #fcf5e8;
+    color: #0e0000;
+}
+.white {
+    background-color: #fff;
+    color: #0e0000;
+}
+/* Section Buttons */
+.container-btn {
+    margin: 0 auto;
+}
+.btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 48px;
+    margin: 10px 0;
+    margin-right: 10px;
+    min-width: 95px;
+    border-radius: 3px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 2px 14px rgb(126 87 88 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+}
+.btn.white {
+    color: #fd1015;
+    transition: transform 300ms ease-out;
+}
+.btn.white:hover {
+    color: #fd1015;
+    transform: translate(0px, 0px) scale(1, 1.1);
+}
+.btn.red {
+    background-color: #fd1015;
+    color: #fff;
+    transition: transform 300ms ease-out;
+}
+.btn.red:hover {
+    background-color: #fd1015;
+    color: #fff;
+    transform: translate(0px, 0px) scale(1, 1.1);
+}
+.btn.old-lace {
+    background-color: #fcf5e8;
+    color: #fd1015;
+    transition: transform 300ms ease-out;
+}
+.btn.old-lace:hover {
+    background-color: #fcf5e8;
+    color: #fd1015;
+    transform: translate(0px, 0px) scale(1, 1.1);
+}
+.btn.white-border {
+    border: 1px solid #fd10146a;
+    color: #fd10146a;
+    transition: transform 300ms ease-out;
+}
+.btn.white-border:hover {
+    border: 1px solid #fd10146a;
+    color: #fd10146a;
+    transform: translate(0px, 0px) scale(1, 1.1);
+}
+/* Section Typography */
+.container-typography {
+    display: flex;
+    flex-direction: column;
+}
+.header, .paragraphe {
+    margin: 10px 0 0 0;
+}
+.paragraphe sub-title {
+    font-family: 'Public Sans';
+    font-weight: 400;
+    font-style: 1.125rem;
+}
+.paragraphe simple {
+    font-weight: 300;
+    font-style: 1rem;
+}
+/* Section Fonts */
+.container-font {
+    display: flex;
+    flex-direction: column;
+}
+.container-font div:first-child p {
+    font-family: 'Jost';
+}
+.paragraphe.simple.bold {
+    font-weight: 700;
+}
+.paragraphe.simple.italic {
+    font-weight: 300;
+    font-style: italic;
+}
